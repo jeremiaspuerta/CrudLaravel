@@ -1,39 +1,14 @@
-REFERENCIA DEL .env
+    - El proyecto se encuentra dentro de la carpeta '53Laravel'
 
-APP_ENV=local
-APP_KEY=base64:NfFhrWY5jWRYiLy8FCp4rjByYQHWfeOqi63X7HK4OOg=
-APP_DEBUG=true
-APP_LOG_LEVEL=debug
-APP_URL=http://localhost
+    - En el archivo .env_example se encuentra la configuración esencial del proyecto
+    
+        - Copiar y pegar el archivo .env_example dentro de la carpeta del proyecto, y cambiarle el nombre a '.env'.
 
-DB_CONNECTION=mysql
-DB_HOST=localhost
-DB_PORT=3306
-DB_DATABASE=laravel
-DB_USERNAME=USERNAME
-DB_PASSWORD=PASSWORD
+        - En el archivo .env sólo se debe colocar los datos del usuario de la base de datos MySQL y cambiar los datos de conexión en caso de que sean distintos a los predeterminados.
+    
+    -La base de datos utilizada se llama 'laravel' y en el archivo 'data-dump.sql' se encuentra lista para importar y ejecutar.
 
-BROADCAST_DRIVER=log
-CACHE_DRIVER=file
-SESSION_DRIVER=file
-QUEUE_DRIVER=sync
 
-REDIS_HOST=127.0.0.1
-REDIS_PASSWORD=null
-REDIS_PORT=6379
-
-MAIL_DRIVER=smtp
-MAIL_HOST=mailtrap.io
-MAIL_PORT=2525
-MAIL_USERNAME=null
-MAIL_PASSWORD=null
-MAIL_ENCRYPTION=null
-
-PUSHER_APP_ID=
-PUSHER_KEY=
-PUSHER_SECRET=
-
-###########################################
 
 
 
