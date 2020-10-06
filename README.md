@@ -4,7 +4,7 @@
     
         - Copiar y pegar el archivo .env_example dentro de la carpeta del proyecto, y cambiarle el nombre a '.env'.
 
-        - En el archivo .env sólo se debe colocar los datos del usuario de la base de datos MySQL y cambiar los datos de conexión en caso de que sean distintos a los predeterminados.
+        - En el archivo .env se debe colocar los datos del usuario de la base de datos MySQL y, en caso de que sean distintos a los predeterminados, los respectivos datos de conexión.
     
     -La base de datos utilizada se llama 'laravel' y en el archivo 'data-dump.sql' se encuentra lista para importar y ejecutar.
 
